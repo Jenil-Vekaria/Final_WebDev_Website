@@ -1,0 +1,299 @@
+body
+{
+    background: url("header.jpg") repeat fixed 100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Open Sans',monospace;
+    color: white;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+/*Naivigation Bar Content*/
+div.navigationBar nav a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+span.logo a:hover
+{
+    -webkit-transform: scale(1.2);
+    color: greenyellow;
+    text-decoration: none;
+}
+
+/*Navigation Bar Hover*/
+div.navigationBar nav ul li a:hover
+{
+    color: #00e676;
+}
+
+/*Navigation Bar Clicked*/
+div.navigationBar nav ul li a:active
+{
+    color:#00c853;
+}
+
+ul.sidenav li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+ul.sidenav li a:hover
+{
+    color: greenyellow;
+    text-decoration: none;
+}
+
+
+
+/*Navigation Bar Line*/
+div.line
+{
+    width:100%;
+    height: 27px;
+    border-bottom: 1px solid white;
+    position: absolute;
+    margin-top: -25px;
+}
+/*Welcome Title*/
+div.Welcome h1
+{
+
+    font-family: 'Open Sans';
+    font-size:90px;
+    font-style: inherit;
+}
+
+div.Welcome
+{
+    color:white;
+    text-align: center;
+    margin: 100px;
+    font-size: 10px;
+}
+
+div.Welcome a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/*Team Button*/
+span.teamButton a:hover
+{
+    -webkit-transform: scale(1.2);
+}
+
+.place
+{
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 100%;
+    width: 20px;
+}
+
+.carousel
+{
+    width: 400px;
+    height: 400px;
+}
+
+
+/*Popular Destination*/
+
+section.popular-destination
+{
+        background-color: #e0e0e0;
+        font-family: 'Raleway',monospace;
+        margin-top: 250px;
+        width: 100%;
+        height: 610px;
+        color: black;
+        text-align: center;
+}
+
+div.popular-destination-inner
+{
+    padding-top: 20px;
+    text-align: center;
+}
+
+/*DUBAI*/
+.Dubai-parallax
+{
+    background: url("https://www.farecompare.com/wp-content/uploads/2017/12/2018-Top-Travel-Destinations-Dubai.jpg") fixed 100%;
+    color: white;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 100px;
+}
+
+.Dubai-inner-parallax
+{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+section.Dubai-destination
+{
+    background-color: #e0e0e0;
+    font-family: 'Raleway',monospace;
+    margin-top: -20px;
+    width: 100%;
+    height: 610px;
+    color: black;
+    text-align: center;
+}
+
+/*ROME*/
+.Rome-parallax
+{
+    background: url("https://www.farecompare.com/wp-content/uploads/2017/12/2018-Top-Travel-Destinations-Rome.jpg") repeat fixed 100%;
+    color: white;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 100px;
+}
+
+.Rome-inner-parallax
+{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+section.Rome-destination
+{
+    background-color: #e0e0e0;
+    font-family: 'Raleway',monospace;
+    margin-top: -20px;
+    width: 100%;
+    height: 470px;
+    color: black;
+    text-align: center;
+}
+
+
+
+/*SANGHAI*/
+.Sanghai-parallax
+{
+    background: url("https://www.farecompare.com/wp-content/uploads/2017/12/2018-Top-Travel-Destinations-Shanghai.jpg") repeat fixed 100%;
+    color: white;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 100px;
+}
+
+.Sanghai-inner-parallax
+{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+section.Sanghai-destination
+{
+    background-color: #e0e0e0;
+    font-family: 'Raleway',monospace;
+    margin-top: -20px;
+    width: 100%;
+    height: 470px;
+    color: black;
+    text-align: center;
+}
+
+
+
+/*PARIS*/
+.Paris-parallax
+{
+    background: url("https://www.farecompare.com/wp-content/uploads/2017/12/2018-Top-Travel-Destinations-Paris.jpg") repeat fixed 100%;
+    color: white;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 100px;
+}
+
+.Paris-inner-parallax
+{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+section.Paris-destination
+{
+    background-color: #e0e0e0;
+    font-family: 'Raleway',monospace;
+    margin-top: -20px;
+    width: 100%;
+    height: 470px;
+    color: black;
+    text-align: center;
+}
+
+span.upButton a
+{
+    margin-top: -200px;
+}
+span.upButton a:hover
+{
+    -webkit-transform: scale(1.2);
+}
+
+div.text
+{
+    text-align: justify;
+    line-height: 300%;
+    margin-left: 390px;
+}
+
+/*FRAME WORK*/
+
+section.FrameWork
+{
+    background-color: #e0e0e0;
+    font-family: 'Raleway',monospace;
+    margin-top: 250px;
+    width: 100%;
+    height: 610px;
+    color: black;
+}
+
+div.FrameWork-Inner
+{
+    text-align: center;
+    padding-top: 150px;
+}
+
+div.row
+{
+    margin-top: -230px;
+}
+
+
+section.FrameWork img
+{
+    width: 10%;
+    height: 10%;
+}
+
+div.progress
+{
+    width: 65%;
+    height: 15px;
+    font-size: 10px;
+    text-align: center;
+}
+
+div.django
+{
+    margin-left: 900px;
+    margin-top: -360px;
+}

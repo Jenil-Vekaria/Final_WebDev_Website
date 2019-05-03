@@ -1,0 +1,95 @@
+body
+{
+    background: url("https://www.tanikal.com/wp-content/uploads/2017/11/code-html-css-editor-boskampi.jpg") repeat fixed 100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Open Sans',monospace;
+    color: white;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+/*Naivigation Bar Content*/
+div.navigationBar nav a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+span.logo a:hover
+{
+    -webkit-transform: scale(1.2);
+    color: greenyellow;
+    text-decoration: none;
+}
+
+/*Navigation Bar Hover*/
+div.navigationBar nav ul li a:hover
+{
+    color: #00e676;
+}
+
+/*Navigation Bar Clicked*/
+div.navigationBar nav ul li a:active
+{
+    color:#00c853;
+}
+
+ul.sidenav li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+ul.sidenav li a:hover
+{
+    color: greenyellow;
+    text-decoration: none;
+}
+
+
+
+div.title
+{
+    color:white;
+    text-align: center;
+    font-family: 'Open Sans',monospace;
+    margin-top: 200px;
+}
+
+
+section.Tutorial
+{
+        background-color: #bdbdbd;
+        font-family: 'Raleway',monospace;
+        margin-top:40%;
+        width: 100%;
+        padding-bottom: 2%;
+        height: auto;
+        color: black;
+}
+
+
+div.text
+{
+    text-align: center;
+}
+
+/*OTHERS*/
+div.row
+{
+   text-align: center;
+}
+
+div.row-back
+{
+    text-align: center;
+}
+
+div.row p
+{
+    text-align: center;
+}

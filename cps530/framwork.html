@@ -1,0 +1,250 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>FRAMEWORK</title>
+
+    <link rel="stylesheet" href="framwork.css" type= "text/css"/>
+
+    <!-- FONTS !-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <!-- Custom Fonts from Google -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+     <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body body="parallax">
+
+    <script>
+	$(document).ready(function(){
+
+		$('.sidenav').sidenav();
+
+	});
+    </script>
+
+    <div class="navigationBar navbar-fixed " id="top">
+
+        <ul id="dropdown1" class="dropdown-content black">
+            <li class="black"><a href="team.html">Team</a></li>
+            <li class="black"><a href="conclusion.html">Conclusion</a></li>
+            <li class="black"><a href="reference.html">Reference</a></li>
+          </ul>
+
+        <nav class="black" style="padding-left: 10px; ">
+            <div class="nav-wrapper navbar" >
+                   <span class="logo"><a href="homePage.html" class="brand-logo white-text text-darken-2"><i class="material-icons">flight</i>Travel</a></span>
+		   <span><a href="#" class="sidenav-trigger" data-target="mobile-nav"><i class="material-icons">menu</i></a>
+
+                     <ul class="right hide-on-med-and-down ">
+                        <li><a href="install.html"><i class="material-icons left">home</i>Install</a></li>
+                        <li><a href="framwork.html"><i class="material-icons left">movie</i>FrameWork</a></li>
+                        <li><a href="tutorial.html"><i class="material-icons left">account_circle</i>Tutorial</a></li>
+                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Developers<i class="material-icons right">arrow_drop_down</i></a></li>
+                    </ul>
+            </div>
+        </nav>
+        <div class="line"></div>
+    </div>
+    
+    <ul class="sidenav black" id="mobile-nav">
+  		<li><a href="intro.html">Intro Page</a></li>
+  		<li><a href="homePage.html">Home</a></li>
+      		<li><a href="install.html">Install</a></li>
+      		<li><a href="framwork.html">FrameWork</a></li>
+      		<li><a href="tutorial.html">Tutorial</a></li>
+      		<li><a href="team.html">Team</a></li>
+      		<li><a href="conclusion.html">Conclusion</a></li>
+  		<li><a href="#">Tutorial</a></li>
+  	</ul>
+<script type="text/javascript">
+
+$(document).ready(function(){
+  $(".dropdown-trigger").dropdown();
+});
+
+</script>
+
+
+
+<!------------------------------------------------------------------------------FRONTEND---------------------------------------------------------------------------------------->
+        <section class="Front-End">
+                <div class="Front-End-inner">
+                  <h1>Front End - Materialze</h1>
+                </div>
+
+                <div class = "row">
+                        <div class = "col s3 offset-s0">
+                            <h3>Popularity</h3>
+                            <p>
+					Materialize is the most popular material design based framework. With around 37k stars on GitHub.
+					It&#39;s a very compatible framework that has consistent behavior on different platforms. Which is why
+					some developers prefer it over Bootstrap. Due to being google based, Materialize is well documented
+			 		and easy to use making it popular among many fans of Google Material Design. Materialize is less
+					popular then bootstrap but it a great choice as a beginner framework.
+			    </p>
+                        </div>
+
+                        <div class = "col s3 offset-s1">
+                                <h3>Strength</h3>
+
+                                <ul>
+                                    <li>Huge selction of components</li><br>
+                                    <li>Responsive support endures that websites are supported across all devices </li><br>
+                                    <li>Speed up development as it offeres default stylings</li><br>
+                                    <li>Easy to use because it comes with detailed documentation and specific code examples</li><br>
+                                </ul>
+                        </div>
+
+                        <div class = "col s3 offset-s1">
+                                <h3>Weakness</h3>
+                                <ul>
+                                        <li>Large file size makes this a bulky framework to work with</li><br>
+                                        <li>No support for Flexbox model </li><br>
+                                        <li>Speed up development as it offeres default stylings</li><br>
+                                        <li>Easy to use because it comes with detailed documentation and specific code examples</li><br>
+                                </ul>
+                        </div>
+                </div>
+        </section>
+
+        <section class = "Front-End-Stats">
+                <div class = "Front-End-Stats-inner">
+                    <h1>Used By</h1>
+                    <div class="row">
+                        <div class="col s2 offset-s1">
+                            <img src="https://img.stackshare.io/stack/6847/logo_only.png" alt="the3allsoft">
+                            <p> The3BallSoft</p>
+                        </div>
+
+                        <div class="col s2 offset-s1">
+                            <img src="https://img.stackshare.io/stack/11533/avhanacom.png" alt="Avhana Health">
+                            <p style="margin-left: -13px; ">Avhana Health</p>
+                        </div>
+
+                        <div class="col s2 offset-s1">
+                                <img src="https://img.stackshare.io/stack/17543/big.png" alt="Loose Leaf">
+                                <p style="margin-left: -7px; ">LooselLeaf</p>
+                        </div>
+
+                        <div class="col s2 offset-s1">
+                                <img src="https://img.stackshare.io/stack/25172/KBZ1kBq_.jpg" alt="Settlin">
+                                <p style="margin-left: 10px;">Settlin</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+
+
+
+
+
+
+<!------------------------------------------------------------------------------BACKEND---------------------------------------------------------------------------------------->
+        <section class = "django-parallax">
+                <div class = "django-inner-parallax"></div>
+        </section>
+
+        <section class="Back-End">
+                <div class="Back-End-inner">
+                  <h1>Back End - Django</h1>
+                </div>
+
+                <div class = "row">
+                        <div class = "col s3 offset-s0">
+                            <h3>Popularity</h3>
+                            <p>
+						Django is a high level python based web framework and one of the most popular backend frameworks
+						if not the most. Due to the popularity of Python, Django has a huge user base because of its rapid
+						development and clean pragmatic design. It is well known due to the amount of web application features
+						it provides. It is also free and open sourced with the framework being constantly updated.
+ 	                   </p>
+                        </div>
+
+                        <div class = "col s3 offset-s1">
+                                <h3>Strength</h3>
+
+                                <ul>
+                                    <li>Django is constantly being updated with new and useful packages and built in tools</li><br>
+                                    <li>Django is crowd tested and many huge business websites use Django</li>
+				    <li>Speed up development as it offeres default stylings</li><br>
+                                    <li>Django has one of the best documentations because of its user base</li><br>
+				    <li>Django is quick and offers immense scalability, highly optimized security and customization</li><br>
+                                </ul>
+                        </div>
+
+                        <div class = "col s3 offset-s1">
+                                <h3>Weakness</h3>
+                                <ul>
+                                        <li>Django is suitable for big projects but for smaller ones its heavy and monolithic structure can be a hindrance</li><br>
+                                        <li>Broad knowledge of the system is required to use Django</li><br>
+                                        <li>Small task requires a substantial amount of programming</li><br>
+                                        <li>Django can be used to make human readable URL&#39;s but it uses regex to do so which makes the code bulky and complicated</li><br>
+                                </ul>
+                        </div>
+                </div>
+        </section>
+
+
+        <section class = "Back-End-Stats">
+                <div class = "Back-End-Stats-inner">
+                    <h1>Used By</h1>
+                    <div class="row">
+                        <div class="col s2 offset-s1">
+                            <img src="https://www.abilityfirst.org/wp-content/uploads/2018/06/Instagram-circle-icon-1.png" alt="instagram">
+                            <p> Instagram</p>
+                        </div>
+
+                        <div class="col s2 offset-s1">
+                            <img src="https://images.vexels.com/media/users/3/137399/isolated/preview/47c9900ae893cbed1e1599ab9c8bcb18-pinterest-icon-logo-by-vexels.png" alt="pinterest">
+                            <p>Pinterest</p>
+                        </div>
+
+                        <div class="col s2 offset-s1">
+                                <img src="https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-512.png" alt="google">
+                                <p style="margin-left: 7px; ">Google</p>
+                        </div>
+
+                        <div class="col s2 offset-s1">
+                                <img src="http://northwoodmusic.ca/wp-content/uploads/2018/10/spotify-logo.png" alt="spotify">
+                                <p style="margin-left: 10px;">Spotify</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+</body>
+
+</html>
