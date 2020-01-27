@@ -1,0 +1,172 @@
+body
+{
+    background: url("installBackground.jpg") fixed 100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Open Sans',monospace;
+    color: white;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+/*Naivigation Bar Content*/
+div.navigationBar nav a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+span.logo a:hover
+{
+    -webkit-transform: scale(1.2);
+    color: greenyellow;
+    text-decoration: none;
+}
+
+/*Navigation Bar Hover*/
+div.navigationBar nav ul li a:hover
+{
+    color: #00e676;
+}
+
+/*Navigation Bar Clicked*/
+div.navigationBar nav ul li a:active
+{
+    color:#00c853;
+}
+
+
+/*Navigation Bar Line*/
+div.line
+{
+    width:100%;
+    height: 27px;
+    border-bottom: 1px solid white;
+    position: absolute;
+    margin-top: -25px;
+}
+
+ul.sidenav li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+ul.sidenav li a:hover
+{
+    color: greenyellow;
+    text-decoration: none;
+}
+
+
+
+div.install
+{
+    color:white;
+    text-align: center;
+    font-family: 'Open Sans',monospace;
+    margin-top: 200px;
+}
+
+/*FONT END*/
+section.Front-End
+{
+        background-color: #e0e0e0;
+        font-family: 'Raleway',monospace;
+        margin-top: 375px;
+        width: 100%;
+        height: 440px;
+        color: black;
+}
+
+div.Front-End-inner
+{
+    padding-top: 20px;
+    text-align: center;
+}
+
+section.Front-End-Stats
+{
+        background-color: #424242;
+        font-family: 'Raleway',monospace;
+        margin-top: -20px;
+        width: 100%;
+        height: 170px;
+        color: white;
+}
+
+div.Front-End-Stats-inner
+{
+    padding-top: 1px;
+    text-align: center;
+}
+
+div.Front-End-Stats-inner img
+{
+    width: 30%;
+    height: 30%;
+}
+
+
+
+
+
+/*BACK-END*/
+
+
+section.Back-End
+{
+        background-color: #bdbdbd;
+        font-family: 'Raleway',monospace;
+        margin-top: -20px;
+        width: 100%;
+        padding-bottom: 2%;
+        height: auto;
+        color: black;
+}
+
+div.Back-End-inner
+{
+    padding-top: 20px;
+    text-align: center;
+}
+
+div.Back-End-Stats-inner
+{
+    padding-top: 1px;
+    text-align: center;
+}
+
+div.Back-End-Stats-inner img
+{
+    width: 30%;
+    height: 30%;
+}
+
+
+
+div.text
+{
+    text-align: center;
+}
+
+
+
+/*OTHERS*/
+div.row
+{
+   text-align: center;
+}
+
+div.row-back
+{
+    text-align: center;
+}
+
+div.row p
+{
+    text-align: center;
+}
