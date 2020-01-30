@@ -1,10 +1,10 @@
 # Web Development Project Website
 
-![](/screenshots/pic1.png)
+![](screenshots/pic1.png)
 
-![](/screenshots/pic2.png)
+![](screenshots/pic2.png)
 
-![](/screenshots/pic3.png)
+![](screenshots/pic3.png)
 
 ## Frameworks
 
