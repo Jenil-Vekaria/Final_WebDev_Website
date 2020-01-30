@@ -1,10 +1,10 @@
 # Web Development Project Website
 
-![](screenshots/pic1.png)
+![alt1](https://raw.githubusercontent.com/Jenil-Vekaria/Webdev-Project-Website/master/screenshots/pic1.PNG)
 
-![](screenshots/pic2.png)
+![alt2](https://raw.githubusercontent.com/Jenil-Vekaria/Webdev-Project-Website/master/screenshots/pic2.PNG)
 
-![](screenshots/pic3.png)
+![alt3](https://raw.githubusercontent.com/Jenil-Vekaria/Webdev-Project-Website/master/screenshots/pic3.PNG)
 
 ## Frameworks
 
